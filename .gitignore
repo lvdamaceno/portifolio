@@ -1,0 +1,6 @@
+.env
+.idea
+.portifolio
+*.sqlite3
+*pyc
+__pycache__
