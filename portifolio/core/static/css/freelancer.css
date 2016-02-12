@@ -141,6 +141,12 @@ header .intro-text .skills {
 .navbar-inverse {
   border: none;
 }
+
+.navbar-brand img{
+  width:250px;
+  margin-top: -15px
+}
+
 section {
   padding: 100px 0;
 }
