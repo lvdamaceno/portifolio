@@ -16,7 +16,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from portifolio.core.views import home
+from portifolio.contatos.views import contact
+
 urlpatterns = [
-    url(r'^$', 'portifolio.core.views.home'),
+    url(r'^$', home),
+    url(r'^contato/$', contact),
     url(r'^admin/', admin.site.urls),
 ]
