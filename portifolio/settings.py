@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portifolio.core',
     'portifolio.contatos',
-    'charsleft_widget',
 ]
 
 MIDDLEWARE_CLASSES = [
